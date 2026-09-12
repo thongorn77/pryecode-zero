@@ -1,0 +1,26 @@
+
+:root{--bg:#f7f3e8;--paper:#fffdf7;--ink:#24313a;--blue:#173847;--accent:#d94a3a;--gold:#e0a51b;--green:#2f6f4e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans Thai",Tahoma,sans-serif;line-height:1.9;font-size:20px}
+header{background:var(--blue);color:#fff;padding:16px 18px;position:sticky;top:0;z-index:5}
+nav,.wrap{max-width:860px;margin:auto}
+nav{display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+nav a{color:#fff;text-decoration:none;font-weight:700}
+.brand{margin-right:auto;font-weight:900}
+.wrap{padding:28px 18px 70px}
+.story{background:var(--paper);border:1px solid #ddd5c6;border-radius:18px;padding:28px;box-shadow:0 5px 18px #0001}
+h1,h2,h3{line-height:1.35}
+h1{font-size:2.1rem;margin-bottom:.3em}
+h2{color:#2c6f8f;margin-top:1.7em}
+.eyebrow{color:var(--accent);font-weight:900;letter-spacing:.04em}
+.muted{color:#6d777d;font-size:.9rem}
+.illustration{width:100%;border-radius:16px;margin:26px 0 10px;display:block}
+.caption{font-size:.85rem;color:#70787c;text-align:center;margin-bottom:28px}
+.think{background:#fff4c9;border-left:7px solid var(--gold);padding:20px;border-radius:12px;margin:32px 0}
+.science{background:#eaf4f2;border-left:7px solid #4f9682;padding:20px;border-radius:12px;margin:32px 0}
+.quote{font-size:1.15rem;font-weight:800;text-align:center;padding:12px 16px}
+.sfx{font-size:1.25rem;font-weight:900;text-align:center;letter-spacing:.08em}
+.nextprev{display:flex;justify-content:space-between;gap:12px;margin-top:30px;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;border-radius:999px;padding:10px 18px;font-weight:800}
+hr{border:none;border-top:1px solid #e6dfd3;margin:34px 0}
+@media(max-width:600px){body{font-size:18px}.wrap{padding:12px 8px 50px}.story{padding:18px}.brand{width:100%}h1{font-size:1.7rem}}
